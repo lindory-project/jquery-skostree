@@ -1,0 +1,145 @@
+#skostree {
+	font-size: small;
+	margin-top: 10px;
+}
+#skostree-titre{/*Keep all*/
+	font-size: medium;
+	width: 100%;/*Cheat IE*/
+}
+#skostree-broader {
+	text-align: right;
+	position: relative;
+	float: left;
+	width: 46.5%;
+	min-height: 10px;/*Cheat pour alignement des related*/
+}
+#skostree-specific {
+	text-align: left;
+	float: left;
+}
+#skostree-narrower {
+	/*text-align: right;
+	float: left;
+	width: 46.5%;
+	min-height: 10px;Cheat pour alignement des fils*/
+	text-align: left;
+	float: right;
+	width: 53.5%;
+	/*min-height: 10px;/*Cheat pour alignement des fils*/
+}
+#skostree-related {
+	/*vertical-align:bottom;*/
+	position: relative;
+	z-index: 1;
+	float: left;
+}
+#skostree-exactMatch {
+	text-align: right;
+	float: left;
+	width: 46.5%;
+	min-height: 10px;/*Cheat pour alignement des fils*/
+}
+
+#skostree-courant {
+	width: 100%;
+	float: left;
+}
+#skostree-lev0 {
+	position: relative;
+	float: left;
+	left: 46.2%;
+	/*width: 100%;*/
+}
+#skostree-selector select{
+	/*display: block;*/
+   	margin: 5px;
+   	float:left;
+}
+
+.skostree-text {
+	text-decoration: none;
+	color: black;
+}
+.skostree-error {
+	color: DarkRed;
+}
+.skostree-provider{
+	display: none;
+	font-size: xx-small;
+}
+
+
+.skostree-text {
+  text-decoration: inherit;
+  color: black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 250px;
+  display: inline-block;
+}
+.skostree-text:hover {
+  /*background-color: #2daeee;*/
+  color: #2daeee;
+  text-shadow: 0px 0px 10px #fff;
+  text-decoration: none;
+}
+.skostree-error {
+  color: DarkRed;
+}
+.skostree-provider {
+  display: none;
+  font-size: xx-small;
+}
+
+.skostree-depth {
+  background: none repeat scroll 0 0 transparent;
+  color: #444444;
+  font-family: 'Nunito', cursive;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+
+
+
+#skostree-legende {
+  float: right;
+  font-size: small;
+  border: 1px solid #2daeee;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+}
+#skostree-legende a {
+  background: none;
+  font-family: 'Nunito', cursive;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  vertical-align: text-top;
+  color: #444444;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+#skostree-legende a:hover {
+  color: #ff9c00;
+}
+#skostree-legende-titre h2 {
+  font-size: 14px;
+}
+#skostree-legende-bulle {
+  float: right;
+  cursor: pointer;
+}
+#skostree-legende-bulle acronym {
+  float: right;
+}
+#skostree-legende-body {
+  margin-left: 20px;
+}
